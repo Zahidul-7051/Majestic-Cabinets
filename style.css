@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: oswald;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+  padding: 0 25px;
+  box-sizing: border-box;
+}
+
+/* -------------- banner Section --------------- */
+
+
+.banner {
+  background-image: url(./image/banner-img.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.banner .linear-gradient {
+  position: absolute;
+  background: linear-gradient(to bottom, #010101c9 3%, #665f5329 90%, #000000e6);
+  height: 100%;
+  width: 100%;
+} 
+
+.banner .container {
+  position: inherit;;
+  z-index: 2;
+  height: 100%;
+}
+
+.banner .header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.banner .header .logo img {
+  height: 80px;
+  width: 205px;
+}
+
+.banner .header .icon {
+  display: flex;
+  column-gap: 30px;
+}
+
+.banner .header .icon a {
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+.banner .header .icon .phone {
+  padding-right: 8px;
+  font-size: 15px;
+}
+
+.banner .header .icon .email {
+  padding-right: 8px;
+  font-size: 15px;
+}
+
+
+.banner .header .icon .menu {
+  margin-left: 75px;
+  color: #ffffff;
+  padding: 15px;
+  font-size: 25px;
+}
+
+.banner .container .contant {
+  background: #00000057;
+  color: #ffffff;
+  text-align: center;
+  margin: 0 308px;
+  padding: 15px;
+  margin-top: 90px;
+}
+
+.banner .container .contant h1 {
+  font-size: 48px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 52px;
+}
+
+
+.banner .container .contant p {
+  font-size: 18px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-top: 14px;
+}
+
+.banner .ero {
+  display: flex;
+  justify-content: space-between;
+}
+
+.banner .container .btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 45px;
+}
+
+.banner .container .btn a{
+  background-color: #b31e22;
+  padding: 15px 30px;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.banner .container .btn a:hover {
+  color: #b31e22;
+  border: 3px solid #b31e22;
+  background: none;
+  font-weight: 700;
+}
+
+.banner .container .banner-dot {
+  display: flex;
+  justify-content: center;
+  margin-top: 160px;
+}
+
+
+/* ------------------ Majestic LLC ---------------------- */
+
+.majestic .container {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+  padding: 90px 0;
+}
+
+
+.majestic .contant h2 {
+  font-size: 21px;
+  line-height: 27px;
+  font-weight: 700;
+  color: #0c0603;
+}
+
+.majestic .contant img {
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.majestic .contant p {
+  font-size: 15px;
+  line-height: 21px;
+  font-weight: 700;
+  color: #757575;
+  text-align: justify;
+  margin-right: 15px;
+}
+
+.majestic .contant p b{
+  color: #1c1c1c;
+}
+
+.majestic .contant h3 {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 35px;
+  margin-bottom: 50px;
+}
+
+.majestic .contant a {
+  background-color: #b31e22;
+  font-size: 16px;
+  font-weight: 900;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+
+.majestic .contant a:hover {
+  color: #b31e22;
+  background: none;
+  border: 3px solid #b31e22;
+}
+
+.majestic .image img {
+  height: 420px;
+  width: 620px;
+}
+
+/* --------------------- work Section -------------------- */
+
+.work {
+  background-image: url(./image/work-banner.png.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px 0;
+}
+
+.work .container {
+  display: flex;
+  text-align: center;
+  column-gap: 30px;
+}
+
+.work .container .bg-color {
+  background-color: #ffffff;
+  width: 33%;
+  padding-top: 30px;
+  padding-bottom: 65px;
+}
+
+
+.work .container h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #b31e22;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.work .container p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #111111;
+  text-align: center;
+  padding: 0 38px;
+}
+
+.work .container p b {
+  color: #b31e22;
+}
+
+
+/* ----------------- Portfolio Section ---------------- */
+
+/* 265*190 */
+
+.portfolio {
+  padding: 95px 0;
+}
+
+.portfolio .container {
+  text-align: center;
+}
+
+.portfolio .container h2 {
+  font-size: 27px;
+  font-weight: 700;
+  line-height: 32px;
+  color: #000000;
+  margin-bottom: 26px;
+}
+
+.portfolio .container ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding-top: 35px;
+}
+
+.portfolio .container ul img {
+  height: 190px;
+  width: 265px;
+}
+
+.portfolio .container ul .bg-img {
+  background-image: url(./image/Portfolio-7.2.png);
+} 
+
+
+.portfolio .container ul .bg-3-1 {
+  background-image: url(./image/Portfolio-3.1-before.png);
+}
+
+
+/* ---------------------- Choose aection ----------------- */
+
+.choose {
+  background-image: url(./image/Choose-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 105px 0;
+}
+
+.choose .container .hader {
+  text-align: center;
+}
+
+.choose .container .hader img {
+  margin: 35px 0;
+}
+
+.choose .container .contant {
+  background-color: #ffffff;
+  padding: 25px;
+}
+
+.choose .container h2 {
+  font-size: 27px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #fffefe;
+  text-transform: uppercase;
+}
+
+.choose .container .contant h3{
+  font-size: 19px;
+  line-height: 23px;
+  font-weight: 700;
+  color: #b31e22;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.choose .container .contant h3 img {
+  margin-right: 12px;
+  padding: 2px;
+}
+
+.choose .container .contant p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #323232;
+  margin-left: 33px;
+  margin-right: 40px;
+  word-spacing: 5px;
+  text-align: justify;
+}
+
+.choose .container .exper {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #000000;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 22px;
+  margin: 15px 0;
+}
+
+.choose .container .exper img {
+  margin-right: 12px;
+  padding: 2px;
+}
+
+.choose .container .saisfac {
+  font-size: 19px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #000000;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 22px;
+}
+
+.choose .container .saisfac img {
+  margin-right: 12px;
+  padding: 2px;
+}
+
+
+/* --------------------- Blog Section ----------------------- */
+.blog {
+  text-align: center;
+  padding: 90px 0;
+}
+
+.blog .hader h2 {
+  font-size: 27px;
+  font-weight: 900;
+  line-height: 32px;
+  color: #000000;
+}
+
+.blog .hader img {
+  margin: 30px 0;
+}
+
+.blog .contant {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 45px;
+}
+
+.blog .contant img {
+  height: 220px;
+  width: 350px;
+}
+
+.blog .contant p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #888687;
+  text-align: left;
+  margin: 10px 50px 10px 10px;
+}
+
+.blog .contant a {
+  font-size: 14px;
+  /* font-weight: 400; */
+  line-height: 18px;
+  color: #b93a3d;
+  text-align: left;
+}
+
+.blog .contant h3 {
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 30px;
+  color: #000000;
+  text-transform: capitalize;
+  text-align: left;
+  margin-left: 10px;
+  word-spacing: 3px;
+}
+
+.link {
+  display: block;
+  margin-left: 10px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+
+/* ------------------ Subscribe Section -------------------- */
+
+.subscribe {
+  padding: 60px 0;
+  background-color: #1a1a1a;
+}
+
+.subscribe .container {
+  display: flex;
+  justify-content: center;
+  column-gap: 23px;
+}
+
+.subscribe .container h2 {
+  font-size: 23px;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.subscribe .container input {
+  height: 41px;
+  width: 265px;
+  border: none;
+  padding-left: 10px;
+}
+
+.subscribe .container a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  background-color: #b93a3d;
+  color: #ffffff;
+  padding: 10px 28px;
+}
+
+
+/* ------------------- Footer Section -------------------- */
+
+
+.footer {
+  padding: 72px 0;
+}
+
+.footer .contant {
+  text-align: center;
+} 
+
+.footer .contant .desh {
+  margin: 30px 0;
+}
+
+.footer .contant p {
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+  color: #464646;
+}
+
+.footer .container .icon {
+  display: flex;
+  justify-content: center;
+  column-gap: 30px;
+  font-size: 27px;
+  margin: 40px 0;
+}
+
+.footer .container .icon .fa-facebook-f {
+  border: 2px solid #7b7b7b;
+  border-radius: 62%;
+  padding: 12px 16px;
+  color: #7b7b7b;
+}
+
+.footer .container .icon .fa-instagram {
+  border: 2px solid #7b7b7b;
+  border-radius: 56px;
+  padding: 12px;
+  color: #7b7b7b;
+}
+
+.footer .container .icon .fa-google-plus-g {
+  border: 2px solid #7b7b7b;
+  border-radius: 50%;
+  padding: 12px 9px;
+  color: #7b7b7b;
+}
+
+.footer .item {
+  display: flex;
+  column-gap: 100px;
+}
+
+.footer .item .pera {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 23px;
+    color: #858484;
+    width: 270px;
+    text-align: justify;
+}
+
+.footer .item .contact a{
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #858484;
+}
+
+.footer .item .contact a b {
+  color: #000000;
+}
+
+.footer .item li a {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    color: #010101;
+}
+
+.footer .item li {
+  list-style: square;
+}
+
+
+/* ------------------ Copyright Section ---------------------- */
+
+.copyright {
+  background-color: #b11e22;
+  padding: 35px 0;
+  text-align: center;
+}
+
+.copyright a {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #ffffff;
+  word-spacing: 3px;
+}
